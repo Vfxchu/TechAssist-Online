@@ -1,15 +1,21 @@
 # Python
 backend/venv/
 backend/__pycache__/
+backend/**/__pycache__/
 backend/*.db
 backend/.env
 backend/uploads/
+backend/rag/chroma_db/
 *.pyc
 
 # Node
 frontend/node_modules/
 frontend/dist/
 frontend/.env
+frontend/.env.local
+
+# Test scripts
+backend/_test_runner.py
 
 # Misc
 .DS_Store
